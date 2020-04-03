@@ -41,9 +41,9 @@ public class kelilingTrapesium extends AppCompatActivity {
     private void hitung() {
         double ab = Integer.parseInt(AB.getText().toString());
         double ef = Integer.parseInt(EF.getText().toString());
-        double t = Integer.parseInt(T.getText().toString());
-        double yaitu = 0.5 * (ab + ef) * t;
-        hasil.setText("Keliling Trapesium dengan panjang AB : "+ ab + " , EF : " + ef + "Dan t :" + t +" adalah " +yaitu);
+        double tinggi = Integer.parseInt(T.getText().toString());
+        double yaitu = 0.5 * (ab + ef) * tinggi;
+        hasil.setText("Keliling Trapesium dengan panjang AB : "+ ab + " , EF : " + ef + "Dan t :" + tinggi +" adalah " +yaitu);
     }
 }
 
